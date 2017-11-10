@@ -22,11 +22,3 @@ class Task
   end
 
 end
-
-task1 = Task.new("Do Laundry", "November 12")
-task2 = Task.new("Wash Dishes", "November 15")
-task3 = Task.new("Buy Groceries", "Today")
-
-puts task1.description
-puts task2.due_date
-task3.due_date=("Tomorrow")
